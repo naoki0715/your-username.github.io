@@ -1,0 +1,29 @@
+/* about.html specific styles */
+#page-title {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 2rem;
+}
+
+#page-title h2 {
+    color: #001f3f;
+    margin-bottom: 0;
+}
+
+#company-profile table, #history table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+#company-profile th, #company-profile td,
+#history th, #history td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: left;
+}
+
+#company-profile th, #history th {
+    background-color: #f9f9f9;
+    width: 25%;
+}
